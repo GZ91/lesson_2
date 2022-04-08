@@ -312,7 +312,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\my\source\lesson_2\hello_world.cpp" />
     <ClCompile Include="C:\my\source\lesson_2\example.cpp" />
+    <ClInclude Include="C:\my\source\lesson_2\example.h" />
     <ClCompile Include="C:\my\source\lesson_2\move_me_out.cpp" />
+    <ClInclude Include="C:\my\source\lesson_2\move_me_out.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\my\source\lesson_2\build\ZERO_CHECK.vcxproj">
