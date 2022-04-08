@@ -17,9 +17,7 @@ jobs:
           mkdir build
           cd build
           mkdir install
-          $path=$pwd.path
-          $var="-DCMAKE_INSTALL_PREFIX=$pwd.path\install"
-          cmake .. -DCMAKE_INSTALL_PREFIX=$var
+          cmake .. -DCMAKE_INSTALL_PREFIX=install
           cmake ..
           cmake --build . --target install
           .\install\bin\hello_world.exe
