@@ -1,0 +1,4 @@
+C:/my/source/lesson_2/build/CMakeFiles/hello_world.dir
+C:/my/source/lesson_2/build/CMakeFiles/INSTALL.dir
+C:/my/source/lesson_2/build/CMakeFiles/ALL_BUILD.dir
+C:/my/source/lesson_2/build/CMakeFiles/ZERO_CHECK.dir
