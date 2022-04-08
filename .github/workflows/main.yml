@@ -8,14 +8,12 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: cd directory
-        run: cd build
       
       - name: ls
         run: ls
         
       - name: install and test
         run: |
+          cd build
           .\install.bat
           .\install\bin\hello_world.exe
