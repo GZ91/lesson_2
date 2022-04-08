@@ -17,5 +17,6 @@ jobs:
           cd build
           mkdir install
           cmake .. -DCMAKE_INSTALL_PREFIX=%cd%\install
-          .\install.bat
+          cmake ..
+          cmake --build . --target install
           .\install\bin\hello_world.exe
