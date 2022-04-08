@@ -15,5 +15,7 @@ jobs:
       - name: install and test
         run: |
           cd build
+          mkdir install
+          cmake .. -DCMAKE_INSTALL_PREFIX=%cd%\install
           .\install.bat
           .\install\bin\hello_world.exe
