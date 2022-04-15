@@ -20,7 +20,3 @@ jobs:
           cmake .. -DCMAKE_INSTALL_PREFIX=install
           cmake --build . --target install
           .\install\bin\hello_world.exe
-          Georgiy
-          13
-          16
-          exit
